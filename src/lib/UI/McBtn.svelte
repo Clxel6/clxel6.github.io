@@ -2,12 +2,10 @@
 	export let link = '/';
 	export let img = '';
 	export let text = '';
-
-	import { base } from "$app/paths";
 </script>
 
 <button {...$$restProps}>
-	<a href={base + '/' + link}>
+	<a href={link}>
 		{#if img}
 			<img src={img} alt="" />
 		{/if}

@@ -1,30 +1,29 @@
 <script>
 	import McSection from '$lib/UI/McSection.svelte';
-	import { base } from '$app/paths';
 </script>
 
 <div class="mt-1 flex flex-col gap-1">
 	<McSection>
 		<h1 class="text-xl">Physique</h1>
 		<div class="m-2 grid grid-cols-5 gap-2">
-			<a href="{base}/fiches-revisions/son-et-effet-doppler" data-sveltekit-reload>
+			<a href="/fiches-revisions/son-et-effet-doppler" data-sveltekit-reload>
 				<McSection class="text-center underline">Son et Effet Doppler</McSection>
 			</a>
-			<a href="{base}/fiches-revisions/diffraction-et-interferences" data-sveltekit-reload>
+			<a href="/fiches-revisions/diffraction-et-interferences" data-sveltekit-reload>
 				<McSection class="text-center underline">Diffraction et Interférences</McSection>
 			</a>
 			<a
-				href="{base}/fiches-revisions/description-d-un-mouvement-deuxieme-loi-de-newton"
+				href="/fiches-revisions/description-d-un-mouvement-deuxieme-loi-de-newton"
 				data-sveltekit-reload
 			>
 				<McSection class="text-center underline">
 					Description d'un mouvement, Deuxième loi de Newton
 				</McSection>
 			</a>
-			<a href="{base}/fiches-revisions/mouvement-dans-un-champ-uniforme" data-sveltekit-reload>
+			<a href="/fiches-revisions/mouvement-dans-un-champ-uniforme" data-sveltekit-reload>
 				<McSection class="text-center underline">Mouvement dans un champ uniforme</McSection>
 			</a>
-			<a href="{base}/fiches-revisions/mouvement-dans-un-champ-de-gravitation" data-sveltekit-reload>
+			<a href="/fiches-revisions/mouvement-dans-un-champ-de-gravitation" data-sveltekit-reload>
 				<McSection class="text-center underline">Mouvement dans un champ de gravitation</McSection>
 			</a>
 		</div>
