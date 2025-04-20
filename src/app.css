@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-defaut: oklch(0.94 0 0);
+	--color-x: oklch(0 0 33);
+}
+
+@layer utilities {
+	.fluo {
+		@apply bg-amber-300/55;
+	}
+
+	.fluov {
+		@apply bg-lime-300/55;
+	}
+
+	.fluor {
+		@apply bg-fuchsia-300/55;
+	}
+}
+
+* {
+	font-family: 'liberation-sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #e6eff4;
+}
