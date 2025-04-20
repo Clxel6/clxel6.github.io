@@ -2,7 +2,7 @@
 	import McSection from '$lib/UI/McSection.svelte';
 </script>
 
-<div class="mt-1 flex flex-col gap-1">
+<div class="flex flex-col gap-1 mt-1">
 	<McSection>
 		<h1 class="text-xl">Physique</h1>
 		<div class="m-2 grid grid-cols-5 gap-2">
